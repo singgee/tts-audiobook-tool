@@ -376,7 +376,7 @@ body, html {
 
 #textHolder {
     display: none;
-    font-family: serif;
+    font-family: "TW-Kai", "DFKai-SB", "AR PL UKai TW", "STKaiti", "KaiTi", "Adobe Kaiti Std", "楷体", "华文楷体", serif;
     font-size: var(--text-size);
     line-height: 1.6;
     white-space: pre-wrap; /* Honor line breaks and wrap text */
