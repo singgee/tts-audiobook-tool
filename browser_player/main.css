@@ -373,10 +373,17 @@ body, html {
 }
 
 /* ------------------- */
+@font-face {
+  font-family: "MyKaiti";
+  src: url("MyKaiti.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 #textHolder {
     display: none;
-    font-family: "TW-Kai", "DFKai-SB", "AR PL UKai TW", "STKaiti", "KaiTi", "Adobe Kaiti Std", "楷体", "华文楷体", serif;
+    font-family: "KaiTi", "MyKaiti", serif;
     font-size: var(--text-size);
     line-height: 1.6;
     white-space: pre-wrap; /* Honor line breaks and wrap text */
